@@ -51,12 +51,14 @@ public class LoginTests extends BaseTest {
   
   @BeforeMethod
   public void beforeMethod(Method m) {
+	  System.out.println("LoginTest @BeforeMethod");
 	  loginPage = new LoginPage();
 	  System.out.println("\n"+ "***starting test: "+ m.getName()+"***"+"\n");
   }
 
   @AfterMethod
   public void afterMethod() {
+	  System.out.println("LoginTest @AfterMethod");
   }
 
   @Test

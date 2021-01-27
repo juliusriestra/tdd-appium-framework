@@ -15,7 +15,7 @@
       <!-- <methods>
       	<include name = "invalidUserName"/>
       </methods> -->
-      <class name="com.demo.tests.ProductTests"/>
+      <!-- <class name="com.demo.tests.ProductTests"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
